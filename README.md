@@ -13,10 +13,10 @@
 <tr>
 <th align="center">
 <!-- <img width="441" height="1"> -->
-<img src="./graphics/GOATS_logo.png" width="100" height="50">
+<img src="./graphics/GOATS_logo.png" width="200" height="100">
 </th>
-<th align="center">
-<img width="441" height="1">
+<th align="left">
+<img width="600" height="1">
 <p> 
 <small>
 EXAMPLE TEXT
