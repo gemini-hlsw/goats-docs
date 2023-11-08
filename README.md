@@ -1,14 +1,12 @@
-<table>
-<tr>
-  <td width="200"><img src="./graphics/GOATS_logo.png" width="350" height="80"></td>
-  <td width="1000"><span style=“font-size: 50px”>Gemini Observation and Analysis of Targets System</span></td>
-</tr>
-</table>
+<p align="left">
+  <img src="./graphics/GOATS_logo.png" width="400" height="150" alt="GOATS logo">
+  <h1>Gemini Observation and Analysis of Targets System</h1>
+</p>
 
-# Current Status
+## Current Status
 **The stable version is v23.10.0.**  
 
 ---
-# Documentation
+## Documentation
 Documentation on GOATS is available on "readthedocs" at:
 
