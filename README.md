@@ -17,11 +17,12 @@
 </th>
 <th align="left">
 <img width="600" height="1">
-<p> 
+Gemini Observation and Analysis of Targets System
+<!-- <p> 
 <small>
 EXAMPLE TEXT
 </small>
-</p>
+</p> -->
 </th>
 </tr>
 </table>
