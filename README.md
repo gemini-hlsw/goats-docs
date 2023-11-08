@@ -1,4 +1,4 @@
-<table border="0">
+<table style="width:100%">
 <tr>
   <td><img src="./graphics/GOATS_logo.png" width="100" height="100"></td>
 </tr>
