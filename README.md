@@ -13,7 +13,7 @@
 <tr>
 <th align="center">
 <!-- <img width="441" height="1"> -->
-<img src="./graphics/GOATS_logo.png" width="100" height="10">
+<img src="./graphics/GOATS_logo.png" width="100" height="50">
 </th>
 <th align="center">
 <img width="441" height="1">
