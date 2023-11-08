@@ -7,7 +7,25 @@
 </tr>
 </table>
  -->
-<img src="./graphics/GOATS_logo.png" alt="GOATS logo" style="height: 50px; width:100px; padding-left:0;"/> Blahhh
+
+
+<table>
+<tr>
+<th align="center">
+<img width="441" height="1">
+<td><img src="./graphics/GOATS_logo.png" width="100" height="100"></td>
+</th>
+<th align="center">
+<img width="441" height="1">
+<p> 
+<small>
+EXAMPLE TEXT
+</small>
+</p>
+</th>
+</tr>
+</table>
+
 
 # Current Status
 **The stable version is v23.10.0.**  
