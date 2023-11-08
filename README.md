@@ -7,7 +7,7 @@
 </tr>
 </table>
  -->
-<img src="./graphics/GOATS_logo.png" alt="GOATS logo" style="height: 400px; width:200px;" text="BLah"/>
+<img src="./graphics/GOATS_logo.png" alt="GOATS logo" style="height: 200px; width:500px;" text="BLah"/>
 
 # Current Status
 **The stable version is v23.10.0.**  
