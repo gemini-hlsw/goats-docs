@@ -12,8 +12,8 @@
 <table>
 <tr>
 <th align="center">
-<img width="441" height="1">
-<td><img src="./graphics/GOATS_logo.png" width="100" height="100"></td>
+<!-- <img width="441" height="1"> -->
+<img src="./graphics/GOATS_logo.png" width="100" height="10">
 </th>
 <th align="center">
 <img width="441" height="1">
