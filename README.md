@@ -1,7 +1,7 @@
 <table>
 <tr>
   <td width="200"><img src="./graphics/GOATS_logo.png" width="350" height="80"></td>
-  <td width="1000"><span style=“font-size: 8”>Gemini Observation and Analysis of Targets System</span></td>
+  <td width="1000"><span style=“font-size: 50”>Gemini Observation and Analysis of Targets System</span></td>
 </tr>
 </table>
 
