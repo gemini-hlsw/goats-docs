@@ -10,3 +10,4 @@
 ## Documentation
 Documentation on GOATS is available on "readthedocs" at:
 
+https://goats.readthedocs.io/
