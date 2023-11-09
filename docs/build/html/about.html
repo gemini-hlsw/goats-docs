@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOATS: Gemini Observation and Analysis of Targets System &mdash; GOATS  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=5929fcd5"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            GOATS
+              <img src="_static/GOATS_logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                23.10.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Quickstart</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">GOATS</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">GOATS: Gemini Observation and Analysis of Targets System</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/about.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="goats-gemini-observation-and-analysis-of-targets-system">
+<span id="about-goats"></span><h1>GOATS: Gemini Observation and Analysis of Targets System<a class="headerlink" href="#goats-gemini-observation-and-analysis-of-targets-system" title="Link to this heading"></a></h1>
+<p><strong>GOATS</strong> is a browser-based user interface providing an end-to-end automation of the entire time-domain/multi-messenger astronomy follow-up process – from target selection, over triggering of follow-up observation, over data retrieval, to data reduction and analysis.</p>
+<p>It serves as a Target and Observation Manager (TOM) that can be used out-of-the-box. It is built using the <span class="raw-html"><a href="https://tom-toolkit.readthedocs.io/en/stable/">TOM Toolkit</a></span>, however it, in itself, is not a toolkit but a fully-assembled TOM. Its main motivation is to lower the entry barrier for the user community.</p>
+<figure class="align-center" id="id1">
+<span id="goats-schematic"></span><a class="reference internal image-reference" href="_images/goats_with_lab.jpg"><img alt="GOATS building blocks" src="_images/goats_with_lab.jpg" style="width: 576.0px; height: 324.0px;" /></a>
+<figcaption>
+<p><span class="caption-text">Schematic of GOATS, highlighting its building blocks.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>The main components of GOATS are highlighted in <a class="reference internal" href="index.html#goats-schematic"><span class="std std-numref">Fig. 1</span></a> above. It is primarily directed towards Gemini follow-up observations, while leveraging complementary services (see <a class="reference internal" href="index.html#building-blocks"><span class="std std-ref">below</span></a>) for time-domain astronomy built by programs across the larger NOIRLab organization.</p>
+</section>
+<section id="building-blocks-of-goats">
+<span id="building-blocks"></span><h1>Building blocks of GOATS<a class="headerlink" href="#building-blocks-of-goats" title="Link to this heading"></a></h1>
+<p>GOATS relies on the following components -</p>
+<ul class="simple">
+<li><p><span class="raw-html"><a href="https://antares.noirlab.edu/">ANTARES</a></span> : NOIRLab’s alert broker for target selection.</p></li>
+<li><p><span class="raw-html"><a href="https://tom-toolkit.readthedocs.io/en/stable/">TOM Toolkit</a></span> : Software for building and customizing TOMs developed by the Las Cumbres Observatory. It includes a plugin for triggering Gemini.</p></li>
+<li><p><span class="raw-html"><a href="https://archive.gemini.edu/">Gemini Observatory Archive</a></span> : Gemini data archive.</p></li>
+<li><p><span class="raw-html"><a href="https://dragons.readthedocs.io/en/stable/">DRAGONS</a></span> : Gemini data reduction software.</p></li>
+<li><p><span class="raw-html"><a href="https://datalab.noirlab.edu/">Astro Data Lab</a></span> : NOIRLab’s science platform, which provides access to various legacy catalogs and a JupyterHub environemnt.</p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Association of Universities for Research in Astronomy.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

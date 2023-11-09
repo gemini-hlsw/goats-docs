@@ -1,3 +1,5 @@
+.. about.rst
+
 .. _about-goats:
 
 GOATS: Gemini Observation and Analysis of Targets System
@@ -28,19 +30,3 @@ GOATS relies on the following components -
 * |GOA| : Gemini data archive.
 * |DRAGONS| : Gemini data reduction software.
 * |Dlab| : NOIRLab's science platform, which provides access to various legacy catalogs and a JupyterHub environemnt.  
-
-.. toctree::
-   :maxdepth: 3
-   :hidden:
-   :caption: About GOATS
-
-
-.. toctree::
-   :maxdepth: 3
-   :hidden:
-   :caption: Quickstart
-
-   installation.rst
-
-
-
